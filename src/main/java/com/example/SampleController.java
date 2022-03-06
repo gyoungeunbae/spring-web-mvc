@@ -10,6 +10,6 @@ import javax.servlet.http.HttpServletResponse;
 public class SampleController implements Controller {
     @Override
     public ModelAndView handleRequest(HttpServletRequest request, HttpServletResponse response) throws Exception {
-        return new ModelAndView("/WEB-INF/sample2.jsp");
+        return new ModelAndView("sample2");
     }
 }
